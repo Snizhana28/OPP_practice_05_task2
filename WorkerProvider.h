@@ -4,7 +4,7 @@ class WorkerProvider
 {
 public :
 
-	void Print(Worker* obj)
+	static void Print(Worker* obj)
 	{
 		cout << "Surname Name: " << obj->get_surname_name() << endl;
 		cout << "Position: " << obj->get_position() << endl;
@@ -12,7 +12,7 @@ public :
 		cout << "Salary: " << obj->get_salary() << endl;
 	}
 
-	void Print_givenMin_experience(Worker* obj, int size)
+	static void Print_givenMin_experience(Worker* obj, int size)
 	{
 		int current_year;
 		cout << "Enter a current year : ";
@@ -35,7 +35,7 @@ public :
 		}
 	}
 
-	void Print_givenMin_salary(Worker* obj, int size)
+	static void Print_givenMin_salary(Worker* obj, int size)
 	{
 		int min_salary;
 		cout << "Enter a min salary : ";
@@ -55,7 +55,7 @@ public :
 		}
 	}
 
-	void Print_givenPosition(Worker* obj, int size)
+	static void Print_givenPosition(Worker* obj, int size)
 	{
 		string givenPosition;
 		cout << "Enter given position: ";
