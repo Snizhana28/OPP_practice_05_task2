@@ -4,6 +4,15 @@
     <Filter Include="application">
       <UniqueIdentifier>{0aa2a782-f66a-43ee-9153-423340306cb9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{84f6b471-02c2-4381-917b-a1d5b55f9356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\use_case">
+      <UniqueIdentifier>{d83a2ae3-bf4d-4376-aa35-e29fdbaa46a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models">
+      <UniqueIdentifier>{8b5b750e-46e0-4d7d-8299-ed9b49d81b53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
@@ -13,6 +22,12 @@
   <ItemGroup>
     <ClInclude Include="application_library.h">
       <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerProvider.h">
+      <Filter>domain\use_case</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>domain\models</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
