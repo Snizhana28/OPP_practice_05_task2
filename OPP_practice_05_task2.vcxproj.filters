@@ -13,6 +13,9 @@
     <Filter Include="domain\models">
       <UniqueIdentifier>{8b5b750e-46e0-4d7d-8299-ed9b49d81b53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="screens">
+      <UniqueIdentifier>{073ce6ac-1d01-45aa-b56f-e0ced0c6cc87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
@@ -28,6 +31,9 @@
     </ClInclude>
     <ClInclude Include="Worker.h">
       <Filter>domain\models</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>screens</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
